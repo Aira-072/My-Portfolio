@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">My Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="c:\Users\airab\Downloads\aira2.jpg" alt="Profile Photo" class="profile-img">
+                <h1>Aira Beheran</h1>
+                <p>Aspiring Web Developer</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Aira, a passionate web developer with a focus on creating user-friendly and responsive websites. I have experience in HTML, CSS, JavaScript, and various web development frameworks.</p>
+                    <p>My journey in web development started during my college years, and I've been constantly learning and improving my skills ever since. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+                    <p>When I'm not coding, you can find me hiking, watching tech blogs, drawing, or experimenting with new recipes in the kitchen.</p>
+                </div>
+                <div class="about-img">
+                    <img src="c:\Users\airab\Downloads\pics.jpg" alt="About Me Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="c:\Users\airab\Downloads\calcu.jpg" alt="Project 1" class="project-img">
+                    <div class="project-info">
+                        <h3>Interactive Calculator</h3>
+                        <p>A fully functional calculator with basic arithmetic operations and a clean UI.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="c:\Users\airab\Downloads\heart.jpg" alt="Project 2" class="project-img">
+                    <div class="project-info">
+                        <h3>2D Heart Animation</h3>
+                        <p>A beautiful animated heart created with pure CSS. You can control the animation with the buttons below.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="c:\Users\airab\OneDrive\Pictures\Screenshots\portfolio.png" alt="Project 3" class="project-img">
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>A responsive portfolio section showcasing skills, projects, and contact information.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out if you have any questions or would like to collaborate on a project.</p>
+                    <p>Email: airabeheran7@gmail.com</p>
+                    <p>Phone: 09128742627</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/16yMpubenF/">FB</a>
+                        <a href="https://www.tiktok.com/@kittycakes51?_t=ZS-8zZe0XkgjWZ&_r=1">TK</a>
+                        
+                        </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aira Beheran. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="theme-switcher">
+        <button id="themeToggle" class="btn">Light/Dark Mode</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
